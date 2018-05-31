@@ -18,10 +18,10 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $this = $("#sendMessageButton");
-      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      $this.prop("disabled", true); // Disable submitSuccesst button until AJAX call is complete to prevent duplicate messages
       //url: "././mail/contact_me.php",
       $.ajax({
-        url: "https://www.juntosvbi.com/perfil-profesional-correo/contactar-correo.php",
+        url: "http://juntosvbi.com/perfil-profesional-correo/contactar-correo.php",
         type: "POST",
         data: {
           name: name,
