@@ -22,7 +22,7 @@ $(function() {
       //url: "././mail/contact_me.php",
       $.ajax({
         url: "https://www.juntosvbi.com/perfil-profesional-correo/contactar-correo.php",
-        type: "GET",
+        type: "POST",
         data: {
           name: name,
           phone: phone,
