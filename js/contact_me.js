@@ -21,7 +21,7 @@ $(function() {
       $this.prop("disabled", true); // Disable submitSuccesst button until AJAX call is complete to prevent duplicate messages
       //url: "././mail/contact_me.php",
       $.ajax({
-        url: "http://juntosvbi.com/perfil-profesional-correo/contactar-correo.php",
+        url: "http://www.juntosvbi.com/perfil-profesional-correo/contactar-correo.php",
         type: "POST",
         data: {
           name: name,
