@@ -8,5 +8,3 @@ Ruta de la página web de mi perfil profesional.
 NOTA: La página no se ha terminado de cargar las actualizaciones. 
 
 Correo: heber.daniel.ramos.mendoza@gmail.com.
-
-
